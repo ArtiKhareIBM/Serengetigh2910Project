@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">arti.khare@ibm.com</value>
-    <value name="createdDate">1761717833054</value>
-    <value name="lastModifiedDate">1761717833054</value>
+    <value name="lastModifiedBy">arti.khare@ibm.com</value>
+    <value name="lastModifiedDate">1761717845834</value>
     <value name="displayName">gitlabfs</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,6 +59,13 @@
           <null name="services"/>
         </record>
         <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">SubstractPackage:substractFS</value>
+          <value name="serviceName">SubstractPackage:substractFS</value>
+          <value name="displayName">substractFS</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
